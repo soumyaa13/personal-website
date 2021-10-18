@@ -1,0 +1,185 @@
+h1{
+  font-family: monospace;
+}
+
+h2{
+color: #22577A;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.p1{
+  font-size: larger;
+}
+.header{
+  padding: 10px;
+  background: #334257;
+  font-size: 25px;
+  border-radius: 10px;
+  display: flex;
+  margin:0px;
+  color: #FAF1E6;
+}
+
+.navbar {
+  background: #F9F7D9;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  border-radius: 10px;
+
+}
+
+.navbar li {
+  list-style: none;
+  padding: 75px 75px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+.timeline {
+  text-align: center;
+  border: 2px ;
+  margin-right: 70%;
+  padding: 10px;
+  font-size: larger;
+  color: #30475E;
+}
+body {
+  background-color: white;
+  font-family: sans-serif;
+  min-height: 100%;
+}
+
+/* The actual timeline (the vertical ruler) */
+.sidebar {
+  position: relative;
+  max-width: 500px;
+  margin: 0px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.sidebar::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  background-color:#316B83;
+  top: 0;
+  bottom: 0;
+  left: 40%;
+}
+
+/* Container around content */
+.container {
+  padding: 10px;
+  position: relative;
+  background-color: #11324D;
+  width: 30%;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  color: #11324D;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar::after {
+    left: 31px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
+.details {
+  position: relative;
+  margin-top: 13.5%;
+  margin-left: 12%;
+  bottom: 1260px;
+  left: 400px;
+  font-size: larger;
+  color: #6E3B3B;
+  width: 38%;
+}
+
+.paragraph {
+  font-size: large;
+  font-family: sans-serif;
+  text-align: justify;
+  padding-top: 2%;
+  max-width: 400px;
+  color: #6E3B3B;
+}
+
+.photos {
+  position: relative;
+  bottom: 1367px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 40%;
+
+  /* padding-left: 1%; */
+}
+.title {
+  margin-top: 20%;
+  margin-left: 0%;
+  color: #8E3343;
+}
+
+.center {
+  width: 90%;
+  /* text-align: right; */
+}
+
+.footer {
+  margin-top: 2%;
+}
+.delivery{
+  position: relative;
+  margin-left: 32%;
+  bottom: 1230px;
+  color: #424874;
+}
+.address {
+  border: 5px solid #424874;
+  border-radius: 19px;
+  position: relative;
+  padding: 10px;
+  bottom: 1100px;
+  color: #424874;
+}
+.contact {
+  position: relative;
+  margin-left: 70%;
+  bottom: 110px;
+  color: #424874;
+}
+
+.end{
+
+
+}
